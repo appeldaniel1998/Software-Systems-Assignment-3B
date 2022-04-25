@@ -8,6 +8,7 @@ namespace zich
         std::vector<std::vector<double>> matrix;
 
         public:
+            Matrix();
             Matrix(std::vector<double> matAsVector, int rows, int cols);
             Matrix(const Matrix& other);
             ~Matrix();
